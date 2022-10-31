@@ -1,7 +1,9 @@
 export const CRYPTODEVS_DAO_CONTRACT_ADDRESS =
+  // "0x34617F979F0661447741f8c3Db9F1e1aBd2F4b74";
   "0x88A21a4e1ef63c1E85854297e45f602Ffbe9B19c";
+
 export const CRYPTODEVS_NFT_CONTRACT_ADDRESS =
-  "0xF4Cb0e3a171ecCAFD48e8807e9247631eCf88CC9";
+  "0xf4cb0e3a171eccafd48e8807e9247631ecf88cc9";
 
 export const CRYPTODEVS_DAO_ABI = [
   {
@@ -77,7 +79,7 @@ export const CRYPTODEVS_DAO_ABI = [
   },
   {
     inputs: [],
-    name: "numProposal",
+    name: "numProposals",
     outputs: [
       {
         internalType: "uint256",
@@ -173,7 +175,7 @@ export const CRYPTODEVS_DAO_ABI = [
         type: "uint8",
       },
     ],
-    name: "voteProposal",
+    name: "voteOnProposal",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

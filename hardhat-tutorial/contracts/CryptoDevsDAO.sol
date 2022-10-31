@@ -11,7 +11,7 @@ interface IFakeNFTMarketplace {
 
     function available(uint256 _tokenId) external view returns (bool);
 
-    function Purchase(uint256 _tokenId) external payable;
+    function purchase(uint256 _tokenId) external payable;
 }
 
 /**
